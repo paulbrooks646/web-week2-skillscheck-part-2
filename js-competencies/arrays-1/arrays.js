@@ -8,7 +8,7 @@
 
 //Code here
 
-
+let rubberDucks = ["yellow", "red", "blue", "brown"]
 //////////////////PROBLEM 2////////////////////
 
 //Uncomment the correct answer to the following questions:
@@ -16,13 +16,13 @@
 //What is the first numbered index of an array?
 
 // var answer = 1
-// var answer = 0
+ var answer = 0
 
 //How do you access the length of an array, such as the array
 //you created above called rubberDucks?
 
 // var arrayLength = Array.length(rubberDucks)
-// var arrayLength = rubberDucks.length
+ var arrayLength = rubberDucks.length
 // var arrayLength = rubberDucks.len
 // var arrayLength = rubberDucks.length()
 
@@ -36,7 +36,9 @@
 
 //Code here
 
-
+function getLast(arr) {
+    return arr[arr.length-1]
+}
 //////////////////PROBLEM 4////////////////////
 
 //Create a function called getElement that takes in two 
@@ -46,7 +48,9 @@
 
 //Code here
 
-
+function getElement(arr, index) {
+    return arr[index]
+}
 //////////////////PROBLEM 5////////////////////
 
 //Create a function called changeElement that takes in three 
@@ -56,10 +60,16 @@
 
 //Code here
 
-
+function changeElement(arr, index, val) {
+    arr[index] = val
+}
 //////////////////PROBLEM 6////////////////////
 
 //Create a function called trim that takes in an array and removes 
 //the last element. trim should return the array.
-
+function trim(arr) {
+    console.log(arr)
+   arr.pop()
+   return arr
+}
 //Code here

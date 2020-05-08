@@ -10,7 +10,14 @@
 //use the built-in array method .map
   
   //Code here
-
+function dragonMapper(arr) {
+let newArray = arr.map(function(element) {
+return element + "...here be dragons" 
+  
+ 
+})
+return newArray
+}
 
 
 //////////////////PROBLEM 2////////////////////
@@ -22,7 +29,23 @@
   
   //Code here
 
+function cookieLoversOnly (arr) {
+  let yummy = arr.filter(function(element, index) { 
+  
+    if (index === "favoriteCookie") {
+      console.log(element)
+      return element
 
+    }
+    
+    
+    
+   
+  }
+
+  )
+  return yummy
+}
 //////////////////PROBLEM 3////////////////////
 
 //Write a function called changeValue that takes 
