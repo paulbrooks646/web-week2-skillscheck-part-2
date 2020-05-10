@@ -4,7 +4,7 @@
 //Create a prototype for a String called reverse that returns the string but, like, reversed.
 
 //Code here
-
+"reverse".substr()
 
 //////////////////PROBLEM 2////////////////////
 

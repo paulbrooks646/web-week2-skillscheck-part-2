@@ -23,7 +23,9 @@ try {
 //the string "Hey " plus the name.
 
 //Code here
-
+function hey(name) {
+  return `Hey ${name}`
+}
 
 ///////////////////Problem 2//////////////////
 //Create a function called hi, using a function
@@ -31,7 +33,9 @@ try {
 //the string "Hi " plus the name.
 
 //Code here
-
+var hi = function(name) {
+  return `Hi ${name}`
+}
 
 ///////////////////Problem 3//////////////////
 //Create a function called hello, using an arrow
@@ -39,7 +43,7 @@ try {
 //the string "Hello " plus the name.
 
 //Code here
-
+var
 
 ///////////////////Problem 4//////////////////
 //Create a function named fun, which takes in
